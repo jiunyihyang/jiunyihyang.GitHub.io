@@ -28,9 +28,15 @@
                 display: inline-block;
                 vertical-align: middle;
             }
+            .shift{
+                padding-left: 160px;
+                
+            }
+
             img {
-                border-radius: 10px;
-                box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+                border-radius: 10%;
+                opacity: 0.85;
+                width: 100%;
             }
 
             .exp {
@@ -40,6 +46,15 @@
                 width: 120px;
                 border-radius: 50%;
             }
+            .edu {
+                width: 180px;
+            }
+            .edu img {
+                width: 120px;
+                border-radius: 50%;
+            }
+
+
             .pub img {
                 width: 250px;
                 border: 1px solid;
@@ -53,27 +68,26 @@
     </head>
     <body style="width: 950px; margin: auto; padding-top: 20px;">
         <!--bio-->
-        <center>
             <div>
-                <img src="./assests/profile.jpg" style="width: 250px;" />
+                <img src="./assests/profile.jpg" style="width: 350px;" />
             </div>
             <div style="padding-left: 35px; width: 540px; text-align: left;">
                 <center style="font-size: 36px;">Jiun-Yih (Angela) Yang</center>
-                <p>I currently majored in M.S. Computer Science at <a href="https://www.cs.usc.edu/" target="_blank">University of Southern California</a> and actively seeking SWE internships. I am proficient in programming languages, including Python, Java, and C++ with a solid foundation in Data Structures and Algorithms.</p>
-                <p>I received my master's degree at <a href="https://www.nctu.edu.tw/en" target="_blank">National Chiao Tung University (NCTU)</a> and received my bachelor's degree at <a href="https://www.nchu.edu.tw/en-index" target="_blank">National Chung Hsing University (NCHU)</a>.</p>
+                <p>I currently major in M.S. Computer Science at <a href="https://www.cs.usc.edu/" target="_blank">University of Southern California</a> and actively seeking SWE internships. My proficient skills are programming languages, including Python, Java, and C++, with a solid foundation in Data Structures and Algorithms.</p>
+                <p>I received my master's degree at <a href="https://www.nctu.edu.tw/en" target="_blank">National Chiao Tung University (NCTU)</a> and my bachelor's degree at <a href="https://www.nchu.edu.tw/en-index" target="_blank">National Chung Hsing University (NCHU)</a>.</p>
                     <a href="mailto:jiunyihy@usc.edu" target="_blank"><i class="fas fa-envelope ai-2x"></i></a>&nbsp;
                     <a href="https://github.com/jiunyihyang" target="_blank"><i class="fab fa-github ai-2x"></i></a>&nbsp;
                     <a href="./assests/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a>&nbsp;
                     <a href="https://www.linkedin.com/in/jiun-yih-yang/" target="_blank"><i class="fab fa-linkedin ai-2x"></i></a>&nbsp;
                 </center>
             </div>
-        </center>
-        <br /><hr /><br />
-        <!--exp-->
+        <br><br>
+
+        <!--edu-->
         <center>
-            <div class="exp">
+            <div class="edu">
                 <p>
-                    <img src="./imgs/avatar_usc.png" />
+                    <img src="./imgs/avatar_usc.png" style="width: 100px;"/>
                 </p>
                 <p>
                     <b style="font-size: 18px;"><a href="https://www.cs.usc.edu/" target="_blank">USC M.S. CS</a></b><br />
@@ -81,31 +95,9 @@
                     2021.01 - 2023.05
                 </p>
             </div>
-            <div class="exp">
+            <div class="edu">
                 <p>
-                    <img src="./imgs/avatar_lp.png" />
-                </p>
-                <p>
-                    <b style="font-size: 18px;"><a href="https://www.litepoint.com/" target="_blank">Litepoint</a></b><br />
-                    Software engineering Intern<br />
-                    2021.05 - 2021.08
-                </p>
-            </div>
-            <div class="exp">
-                <p>
-                    <img src="./imgs/avatar_jj.png" />
-                </p>
-                <p>
-                    <b style="font-size: 18px;"><a href="https://www.jnj.com/" target="_blank">Johnson & Johnson</a></b><br />
-                    Supply Chain Assistant<br />
-                    2019.03 - 2019.12<br />
-                    R&D Specialist<br />
-                    2018.04 - 2019.03
-                </p>
-            </div>
-            <div class="exp">
-                <p>
-                    <img src="./imgs/avatar_nctu.png" />
+                    <img src="./imgs/avatar_nctu.png" style="width: 100px;"/>
                 </p>
                 <p>
                     <b style="font-size: 18px;"><a href="https://www.nctu.edu.tw/en target="_blank">NCTU M.S. Chemistry</a></b><br />
@@ -113,9 +105,9 @@
                     2015.09 - 2017.06
                 </p>
             </div>
-            <div class="exp">
+            <div class="edu">
                 <p>
-                    <img src="./imgs/avatar_nchu.png" />
+                    <img src="./imgs/avatar_nchu.png" style="width: 100px;"/>
                 </p>
                 <p>
                     <b style="font-size: 18px;"><a href="https://www.nchu.edu.tw/en-index target="_blank">NCHU B.S. Chemistry</a></b><br />
@@ -124,7 +116,69 @@
                 </p>
             </div>
         </center>
-        <br /><hr /><br />
+
+        <!--exp-->
+        <div>
+            <span style="font-size: 28px;"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;Experience</span>
+            <br><br>
+            <div class="shift">
+                <div style="width: 10%; display: inline-block;">
+                    <img src="imgs/avatar_lp.png" style="border-radius: 50%;">
+                </div>
+                <div style="padding-left: 3%; width: 55%; display: inline-block;">
+                    <span>
+                        <b style="font-size: 18px;">Software Engineering Intern</b>
+                        <span style="float: right">2021.05 - 2021.08</span>
+                    </span>
+                    <br>
+                    <span><a style="font-size: 18px;" href="https://www.litepoint.com/" target="_blank">Litepoint</a></span>
+                </div>
+            </div>
+            <br>
+            <div class="shift">    
+                <div style="width: 10%; display: inline-block;">
+                    <img src="imgs/avatar_jj.png" style="border-radius: 50%;">
+                </div>
+                <div style="padding-left: 3%; width: 55%; display: inline-block;">
+                    <span>
+                        <b style="font-size: 18px;">Supply Chain Assistant</b>
+                        <span style="float: right">2019.03 - 2019.12</span>
+                    </span>
+                    <br>
+                    <span><a style="font-size: 18px;" href="https://www.jnj.com/" target="_blank">Johnson & Johnson</a></span>
+                </div>
+            </div>
+            <br>
+            <div class="shift">
+                <div style="width: 10%; display: inline-block;">
+                    <img src="imgs/avatar_jj.png" style="border-radius: 50%;">
+                </div>
+                <div style="padding-left: 3%; width: 55%; display: inline-block;">
+                    <span>
+                        <b style="font-size: 18px;">R&D Specialist</b>
+                        <span style="float: right">2018.04 - 2019.03</span>
+                    </span>
+                    <br>
+                    <span><a style="font-size: 18px;" href="https://www.jnj.com/" target="_blank">Johnson & Johnson</a></span>
+                </div>
+            </div>
+            <br>
+            <div class="shift">
+                <div style="width: 10%; display: inline-block;">
+                    <img src="imgs/avatar_nymu.png" style="border-radius: 50%;">
+                </div>
+                <div style="padding-left: 3%; width: 55%; display: inline-block;">
+                    <span>
+                        <b style="font-size: 18px;">Research Assistant</b>
+                        <span style="float: right">2017.10 - 2018.04</span>
+                    </span>
+                    <br>
+                    <span><a style="font-size: 18px;" href="https://nymu-e.ym.edu.tw/bin/home.php" target="_blank">National Yang-Ming University</a></span>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
         <!--pub-->
         <center>
             
